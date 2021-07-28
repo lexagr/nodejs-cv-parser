@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "webpack && node ./dist/bundle.js",
+    "start": "tsc && node ./dist/index.js",
+    "start:webpack": "webpack && node ./dist/bundle.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
