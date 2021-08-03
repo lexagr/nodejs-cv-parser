@@ -1,10 +1,10 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import * as pdf from 'pdf-parse';
+import { PDFExtract } from 'pdf.js-extract';
 
 const bootstrap = () => {
   const filename = process.argv[2];
-  const parsedPath = path.parse(filename);
+  const parsedPath = path.parse(filename ?? '');
 
   if (!filename || parsedPath.ext !== '.pdf') {
     console.log('Please specify the valid pdf file!');
@@ -12,18 +12,11 @@ const bootstrap = () => {
   }
 
   let filePath = path.join(process.cwd(), 'storage/', parsedPath.base);
+
+  const pdfExtractor = new PDFExtract();
+  pdfExtractor.extract(filePath).then((data) => console.log(data.pages[0]));
+
   console.log(filePath);
-
-  fs.readFile(filePath, (err, data) => {
-    if (err) {
-      console.log(err);
-      return;
-    }
-
-    pdf(data).then((result) => {
-      console.log(result);
-    });
-  });
 };
 
 bootstrap();
