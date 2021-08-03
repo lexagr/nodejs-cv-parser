@@ -1,20 +1,29 @@
-import { interval, Observable, Observer, of } from "rxjs";
+import * as fs from 'fs';
+import * as path from 'path';
+import * as pdf from 'pdf-parse';
 
-class ArrayObserver implements Observer<any> {
-  next(value: any) {
-    console.log("next: ", value);
+const bootstrap = () => {
+  const filename = process.argv[2];
+  const parsedPath = path.parse(filename);
+
+  if (!filename || parsedPath.ext !== '.pdf') {
+    console.log('Please specify the valid pdf file!');
+    return;
   }
 
-  error(err: any) {
-    console.log("error: ", err);
-  }
+  let filePath = path.join(process.cwd(), 'storage/', parsedPath.base);
+  console.log(filePath);
 
-  complete() {
-    console.log("observer end");
-  }
-}
+  fs.readFile(filePath, (err, data) => {
+    if (err) {
+      console.log(err);
+      return;
+    }
 
-of(0, 5, 8, 2913, 4).subscribe(new ArrayObserver());
-of(0, 5, 8, 2913, 4).subscribe((val) => console.log(val));
+    pdf(data).then((result) => {
+      console.log(result);
+    });
+  });
+};
 
-console.log("rxjs of", 0);
+bootstrap();
