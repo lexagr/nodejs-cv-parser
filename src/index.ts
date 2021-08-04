@@ -1,8 +1,12 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import { PDFExtract } from 'pdf.js-extract';
 
-const bootstrap = () => {
+import { CVParser } from './cv-parser/cvparser';
+
+const JSONDEF_DIR = 'jsondef/';
+const STORAGE_DIR = 'storage/';
+
+async function bootstrap() {
   const filename = process.argv[2];
   const parsedPath = path.parse(filename ?? '');
 
@@ -11,12 +15,17 @@ const bootstrap = () => {
     return;
   }
 
-  let filePath = path.join(process.cwd(), 'storage/', parsedPath.base);
+  const jsondef = JSON.parse(
+    fs
+      .readFileSync(path.join(process.cwd(), JSONDEF_DIR, 'cvkeywords.json'))
+      .toString(),
+  );
+  let filePath = path.join(process.cwd(), STORAGE_DIR, parsedPath.base);
 
-  const pdfExtractor = new PDFExtract();
-  pdfExtractor.extract(filePath).then((data) => console.log(data.pages[0]));
+  const parser = new CVParser(jsondef);
+  const person = await parser.parse(filePath);
 
-  console.log(filePath);
-};
+  console.log(JSON.stringify(person, null, 2));
+}
 
 bootstrap();
