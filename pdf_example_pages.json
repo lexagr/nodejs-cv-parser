@@ -1,0 +1,1901 @@
+[
+  {
+    "x": 0,
+    "y": 10.314000129999954,
+    "str": " ",
+    "dir": "ltr",
+    "width": 3.3240000000000003,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 405.31800171,
+    "y": 10.314000129999954,
+    "str": " ",
+    "dir": "ltr",
+    "width": 3.3240000000000003,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 21.6,
+    "y": 54.37300034000009,
+    "str": "Contact",
+    "dir": "ltr",
+    "width": 44.772,
+    "height": 13,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 21.6,
+    "y": 85.61400146000005,
+    "str": "www.linkedin.com/in/alizaedelstein",
+    "dir": "ltr",
+    "width": 169.2680000000001,
+    "height": 11,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 21.6,
+    "y": 100.01399918000004,
+    "str": "(LinkedIn)",
+    "dir": "ltr",
+    "width": 48.894999999999996,
+    "height": 11,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 21.6,
+    "y": 113.48900146000005,
+    "str": "alizaedelstein.com/",
+    "dir": "ltr",
+    "width": 93.49999999999999,
+    "height": 11,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 115.1,
+    "y": 113.48900146000005,
+    "str": " (Portfolio)",
+    "dir": "ltr",
+    "width": 50.688,
+    "height": 11,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 21.6,
+    "y": 148.34199829,
+    "str": "Top Skills",
+    "dir": "ltr",
+    "width": 56.30300000000001,
+    "height": 13,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 21.6,
+    "y": 167.79400177000002,
+    "str": "Marketing",
+    "dir": "ltr",
+    "width": 46.084500000000006,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 21.6,
+    "y": 185.39400024000008,
+    "str": "Salesforce.com",
+    "dir": "ltr",
+    "width": 72.324,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 21.6,
+    "y": 202.99400635000006,
+    "str": "Marketo",
+    "dir": "ltr",
+    "width": 37.9155,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 21.6,
+    "y": 237.74200745000007,
+    "str": "Languages",
+    "dir": "ltr",
+    "width": 64.32400000000001,
+    "height": 13,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 21.6,
+    "y": 257.1940033000001,
+    "str": "Italian",
+    "dir": "ltr",
+    "width": 27.993000000000002,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 49.592000580000004,
+    "y": 257.1940033000001,
+    "str": " (Limited Working)",
+    "dir": "ltr",
+    "width": 85.13400000000001,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 21.6,
+    "y": 274.79399414,
+    "str": "English",
+    "dir": "ltr",
+    "width": 34.419000000000004,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 56.01899872,
+    "y": 274.79399414,
+    "str": " (Native or Bilingual)",
+    "dir": "ltr",
+    "width": 94.46849999999999,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 21.6,
+    "y": 292.3940002400001,
+    "str": "Spanish",
+    "dir": "ltr",
+    "width": 37.92600000000001,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 59.52599869,
+    "y": 292.3940002400001,
+    "str": " (Professional Working)",
+    "dir": "ltr",
+    "width": 109.053,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 21.6,
+    "y": 327.14198608000004,
+    "str": "Certifications",
+    "dir": "ltr",
+    "width": 75.08800000000001,
+    "height": 13,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 21.6,
+    "y": 346.59401245000004,
+    "str": "Marketo Champion",
+    "dir": "ltr",
+    "width": 88.67250000000001,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 21.6,
+    "y": 364.19398804,
+    "str": "Marketo Certified Expert",
+    "dir": "ltr",
+    "width": 113.12699999999998,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 21.6,
+    "y": 398.94200439,
+    "str": "Honors-Awards",
+    "dir": "ltr",
+    "width": 89.557,
+    "height": 13,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 21.6,
+    "y": 418.39400024,
+    "str": "SuperMonkey Award",
+    "dir": "ltr",
+    "width": 97.41900000000001,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 21.6,
+    "y": 435.99400635000006,
+    "str": "Top Banana Award",
+    "dir": "ltr",
+    "width": 89.82749999999999,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 21.6,
+    "y": 453.59401245000004,
+    "str": "Hackathon Honorable Mention",
+    "dir": "ltr",
+    "width": 141.77099999999996,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 21.6,
+    "y": 488.34199829000005,
+    "str": "Publications",
+    "dir": "ltr",
+    "width": 70.05700000000002,
+    "height": 13,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 21.6,
+    "y": 507.79399414000005,
+    "str": "7 telling diversity, equity, and",
+    "dir": "ltr",
+    "width": 134.71500000000003,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 21.6,
+    "y": 520.39400024,
+    "str": "inclusion facts to set the scene",
+    "dir": "ltr",
+    "width": 142.884,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 21.6,
+    "y": 537.9940063500001,
+    "str": "Curious how people view you at",
+    "dir": "ltr",
+    "width": 148.16550000000004,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 21.6,
+    "y": 550.59401245,
+    "str": "work? I asked 107 of my colleagues",
+    "dir": "ltr",
+    "width": 166.82399999999993,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 21.6,
+    "y": 563.19401855,
+    "str": "directly",
+    "dir": "ltr",
+    "width": 33.243,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 21.6,
+    "y": 580.79399414,
+    "str": "Relentless self-improvement:",
+    "dir": "ltr",
+    "width": 135.31349999999998,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 21.6,
+    "y": 593.3939697300001,
+    "str": "learning a new skill, being awful at it,",
+    "dir": "ltr",
+    "width": 170.2785,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 21.6,
+    "y": 605.9940063500001,
+    "str": "and practicing until you’re not",
+    "dir": "ltr",
+    "width": 136.48950000000002,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 21.6,
+    "y": 623.59398193,
+    "str": "Webinar | Why thought leadership",
+    "dir": "ltr",
+    "width": 157.86749999999995,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 21.6,
+    "y": 636.19401855,
+    "str": "needs data to succeed",
+    "dir": "ltr",
+    "width": 105.59849999999997,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 21.6,
+    "y": 653.79399414,
+    "str": "Guest Lecturer: How to reach",
+    "dir": "ltr",
+    "width": 137.04600000000002,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 21.6,
+    "y": 666.3939697300001,
+    "str": "your marketing goals with",
+    "dir": "ltr",
+    "width": 118.98600000000002,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 21.6,
+    "y": 678.9940063500001,
+    "str": "experimentation & personalization",
+    "dir": "ltr",
+    "width": 158.08799999999994,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 65.54700012,
+    "str": "Aliza Edelstein",
+    "dir": "ltr",
+    "width": 170.404,
+    "height": 26,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 86.71399994000001,
+    "str": "Director of Product Marketing at Brex",
+    "dir": "ltr",
+    "width": 197.256,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 102.11400146000005,
+    "str": "San Francisco",
+    "dir": "ltr",
+    "width": 76.656,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 139.73700256000006,
+    "str": "Summary",
+    "dir": "ltr",
+    "width": 67.36275,
+    "height": 15.75,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 165.21399994,
+    "str": "The human brain is a crazy place, and there are two things that",
+    "dir": "ltr",
+    "width": 335.2680000000002,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 183.21400757000004,
+    "str": "fascinate me most about product and growth marketing. First: the",
+    "dir": "ltr",
+    "width": 345.9000000000002,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 201.21400757000004,
+    "str": "concept of consumer logic and how rational yet irrational it can",
+    "dir": "ltr",
+    "width": 331.2840000000001,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 219.21400757000004,
+    "str": "be. And second: the challenge of communicating in a way that",
+    "dir": "ltr",
+    "width": 329.29200000000014,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 237.21400757000004,
+    "str": "persuades and convinces consumers always requires optimization—",
+    "dir": "ltr",
+    "width": 364.03200000000015,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 255.21400757000004,
+    "str": "so you're optimizing for something that is both rational and irrational. ",
+    "dir": "ltr",
+    "width": 365.53200000000027,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 291.21400757000004,
+    "str": "I apply the same thinking in product marketing that I also apply in",
+    "dir": "ltr",
+    "width": 344.59200000000027,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 309.21400757000004,
+    "str": "leadership, because whether you're connecting with consumers or",
+    "dir": "ltr",
+    "width": 350.96400000000017,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 327.21400757000004,
+    "str": "with your team, you're connecting with the fun irrationality of their",
+    "dir": "ltr",
+    "width": 344.1720000000002,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 345.21400757000004,
+    "str": "logic—in order to bring ideas together, influence an outcome, and",
+    "dir": "ltr",
+    "width": 347.31600000000026,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 363.21400757000004,
+    "str": "also optimize and scale for future growth. ",
+    "dir": "ltr",
+    "width": 221.94000000000005,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 399.21400757000004,
+    "str": "Outside of work, I serve on the Board of Directors of San Francisco",
+    "dir": "ltr",
+    "width": 355.8600000000002,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 417.21400757000004,
+    "str": "Women in Tech, an organization committed to improving the",
+    "dir": "ltr",
+    "width": 319.93200000000013,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 435.21400757000004,
+    "str": "networking and success of women in technology in Silicon Valley;",
+    "dir": "ltr",
+    "width": 347.96400000000017,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 453.21400757000004,
+    "str": "I coach running for Girls on the Run, an organization designed to",
+    "dir": "ltr",
+    "width": 343.2960000000003,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 471.21400757000004,
+    "str": "inspire young girls to be healthy, confident, and joyful; and I'm an",
+    "dir": "ltr",
+    "width": 344.2200000000002,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 489.21400757000004,
+    "str": "avid runner, cyclist, and painter (alizartworks.com). ",
+    "dir": "ltr",
+    "width": 273.252,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 525.21400757,
+    "str": "I also consider myself a “flavor ambassador” to Humphry Slocombe",
+    "dir": "ltr",
+    "width": 357.2760000000002,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 543.21400757,
+    "str": "ice cream and can sometimes be spotted scooping on warm summer",
+    "dir": "ltr",
+    "width": 365.9760000000001,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 561.21397705,
+    "str": "nights.",
+    "dir": "ltr",
+    "width": 35.328,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 615.0369751000001,
+    "str": "Experience",
+    "dir": "ltr",
+    "width": 78.76575000000001,
+    "height": 15.75,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 645.5140003200002,
+    "str": "Brex",
+    "dir": "ltr",
+    "width": 24.660000000000004,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 661.99999847,
+    "str": "1 year 5 months",
+    "dir": "ltr",
+    "width": 75.243,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 683.32200089,
+    "str": "Director of Product Marketing",
+    "dir": "ltr",
+    "width": 149.454,
+    "height": 11.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 697.8390029900002,
+    "str": "June 2020 - Present ",
+    "dir": "ltr",
+    "width": 97.4085,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 320.96499878,
+    "y": 697.8390029900002,
+    "str": "(5 months)",
+    "dir": "ltr",
+    "width": 50.1585,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 731.59699993,
+    "str": "Product Marketing Team Lead",
+    "dir": "ltr",
+    "width": 154.59450000000004,
+    "height": 11.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 746.1139991800001,
+    "str": "June 2019 - June 2020 ",
+    "dir": "ltr",
+    "width": 110.27099999999999,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 333.82799774,
+    "y": 746.1139991800001,
+    "str": "(1 year 1 month)",
+    "dir": "ltr",
+    "width": 76.98599999999999,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 0,
+    "y": 780.7140001299999,
+    "str": " ",
+    "dir": "ltr",
+    "width": 3.3240000000000003,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 383.98400208,
+    "y": 778.13500013,
+    "str": "Page ",
+    "dir": "ltr",
+    "width": 23.499000000000002,
+    "height": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 407.482995,
+    "y": 778.13500013,
+    "str": "1",
+    "dir": "ltr",
+    "width": 5.0040000000000004,
+    "height": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 412.4869928,
+    "y": 778.13500013,
+    "str": " of ",
+    "dir": "ltr",
+    "width": 12.483000000000002,
+    "height": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 424.96999451,
+    "y": 778.13500013,
+    "str": "4",
+    "dir": "ltr",
+    "width": 5.0040000000000004,
+    "height": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 0,
+    "y": 10.314000129999954,
+    "str": " ",
+    "dir": "ltr",
+    "width": 3.3240000000000003,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 405.31800171,
+    "y": 10.314000129999954,
+    "str": " ",
+    "dir": "ltr",
+    "width": 3.3240000000000003,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 54.92500038000003,
+    "str": "Brex’s first Product Marketing hire. Established the PMM, Partner Marketing,",
+    "dir": "ltr",
+    "width": 354.5220000000002,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 72.92500038000003,
+    "str": "and Content Strategy teams.",
+    "dir": "ltr",
+    "width": 133.5495,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 111.31400031999999,
+    "str": "SurveyMonkey",
+    "dir": "ltr",
+    "width": 79.344,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 127.79999846999999,
+    "str": "4 years 5 months",
+    "dir": "ltr",
+    "width": 80.493,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 149.1220008900001,
+    "str": "Senior Product Marketing Manager",
+    "dir": "ltr",
+    "width": 178.23850000000004,
+    "height": 11.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 163.6390029900001,
+    "str": "January 2018 - June 2019 ",
+    "dir": "ltr",
+    "width": 124.85549999999998,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 348.41199738,
+    "y": 163.6390029900001,
+    "str": "(1 year 6 months)",
+    "dir": "ltr",
+    "width": 82.23599999999999,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 178.32500000000005,
+    "str": "San Mateo, California",
+    "dir": "ltr",
+    "width": 100.89450000000002,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 199.70000000000005,
+    "str": "Joined SurveyMonkey as one of the first 500 employees - company exceeded",
+    "dir": "ltr",
+    "width": 361.08450000000016,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 217.70000000000005,
+    "str": "1,020 employees and was publicly listed on Nasdaq (SVMK) in my fourth year.",
+    "dir": "ltr",
+    "width": 364.5180000000002,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 253.70000000000005,
+    "str": "Led product marketing initiatives to personalize the customer experience in",
+    "dir": "ltr",
+    "width": 347.6445000000003,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 271.70000000000005,
+    "str": "order to drive engagement, upgrades, and cross-sell for SurveyMonkey’s",
+    "dir": "ltr",
+    "width": 338.3205000000001,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 289.70000000000005,
+    "str": "largest product: self-serve surveys. Drove go-to-market strategy for feature",
+    "dir": "ltr",
+    "width": 346.9935000000002,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 307.70000000000005,
+    "str": "launches, conducted customer and market research, determined corporate",
+    "dir": "ltr",
+    "width": 347.08800000000025,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 325.70000000000005,
+    "str": "messaging and positioning, developed use case content strategy, and more.",
+    "dir": "ltr",
+    "width": 354.0915000000002,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 357.14699993000005,
+    "str": "Senior Manager, Demand Generation",
+    "dir": "ltr",
+    "width": 191.67050000000003,
+    "height": 11.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 371.66399918,
+    "str": "August 2016 - February 2018 ",
+    "dir": "ltr",
+    "width": 139.40849999999998,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 362.96400696,
+    "y": 371.66399918,
+    "str": "(1 year 7 months)",
+    "dir": "ltr",
+    "width": 82.23599999999999,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 386.35,
+    "str": "San Mateo, California",
+    "dir": "ltr",
+    "width": 100.89450000000002,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 407.725,
+    "str": "Promoted to build and lead SurveyMonkey’s Demand Generation team. My",
+    "dir": "ltr",
+    "width": 348.7995000000002,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 425.725,
+    "str": "team developed the go-to-market strategy to launch seven new products and",
+    "dir": "ltr",
+    "width": 356.98950000000025,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 443.725,
+    "str": "generate qualified leads for each line of business (SurveyMonkey Enterprise,",
+    "dir": "ltr",
+    "width": 356.9790000000002,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 461.725,
+    "str": "CX, Engage, TechValidate, Salesforce integration, Marketo integration, Eloqua",
+    "dir": "ltr",
+    "width": 365.08500000000026,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 479.725,
+    "str": "integration). I presented results regularly to the executive and leadership",
+    "dir": "ltr",
+    "width": 335.96850000000023,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 497.725,
+    "str": "teams.",
+    "dir": "ltr",
+    "width": 31.489500000000003,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 529.1719999300001,
+    "str": "Demand Generation Manager",
+    "dir": "ltr",
+    "width": 152.07600000000002,
+    "height": 11.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 543.6889991800001,
+    "str": "February 2015 - July 2016 ",
+    "dir": "ltr",
+    "width": 125.412,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 348.96799713,
+    "y": 543.6889991800001,
+    "str": "(1 year 6 months)",
+    "dir": "ltr",
+    "width": 82.23599999999999,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 558.375,
+    "str": "Palo Alto, California",
+    "dir": "ltr",
+    "width": 92.12700000000001,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 579.75,
+    "str": "Joined as one of SurveyMonkey’s first 500 employees and focused on",
+    "dir": "ltr",
+    "width": 325.5000000000001,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 597.75,
+    "str": "acquisition and conversion marketing. Drove email, online marketing (paid",
+    "dir": "ltr",
+    "width": 343.5705000000002,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 615.75,
+    "str": "search, paid social, retargeting), content syndication, and webinar programs.",
+    "dir": "ltr",
+    "width": 355.2150000000003,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 654.1390003200002,
+    "str": "ClearSlide",
+    "dir": "ltr",
+    "width": 55.331999999999994,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 670.19700089,
+    "str": "Demand Generation Manager",
+    "dir": "ltr",
+    "width": 152.07600000000002,
+    "height": 11.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 684.7139991800001,
+    "str": "July 2014 - January 2015 ",
+    "dir": "ltr",
+    "width": 120.76049999999998,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 344.31700378,
+    "y": 684.7139991800001,
+    "str": "(7 months)",
+    "dir": "ltr",
+    "width": 50.1585,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 699.4000000000001,
+    "str": "San Francisco, California",
+    "dir": "ltr",
+    "width": 117.22200000000004,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 720.7750000000001,
+    "str": "Developed and executed acquisition and conversion campaign strategy",
+    "dir": "ltr",
+    "width": 331.3800000000001,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 738.7750000000001,
+    "str": "and achieved 100% and 120% of demand generation objectives in first",
+    "dir": "ltr",
+    "width": 327.8520000000001,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 756.7750000000001,
+    "str": "two quarters, respectively. Guided team of three marketing development",
+    "dir": "ltr",
+    "width": 335.3595000000002,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 0,
+    "y": 780.7140001299999,
+    "str": " ",
+    "dir": "ltr",
+    "width": 3.3240000000000003,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 383.98400208,
+    "y": 778.13500013,
+    "str": "Page ",
+    "dir": "ltr",
+    "width": 23.499000000000002,
+    "height": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 407.482995,
+    "y": 778.13500013,
+    "str": "2",
+    "dir": "ltr",
+    "width": 5.0040000000000004,
+    "height": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 412.4869928,
+    "y": 778.13500013,
+    "str": " of ",
+    "dir": "ltr",
+    "width": 12.483000000000002,
+    "height": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 424.96999451,
+    "y": 778.13500013,
+    "str": "4",
+    "dir": "ltr",
+    "width": 5.0040000000000004,
+    "height": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 0,
+    "y": 10.314000129999954,
+    "str": " ",
+    "dir": "ltr",
+    "width": 3.3240000000000003,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 405.31800171,
+    "y": 10.314000129999954,
+    "str": " ",
+    "dir": "ltr",
+    "width": 3.3240000000000003,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 54.92500038000003,
+    "str": "representatives to more efficiently qualify inbound leads, and developed",
+    "dir": "ltr",
+    "width": 333.08100000000013,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 72.92500038000003,
+    "str": "tracking and reporting infrastructure. Regularly presented marketing updates",
+    "dir": "ltr",
+    "width": 354.64800000000025,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 90.92499846999999,
+    "str": "and training to 70-person sales team.",
+    "dir": "ltr",
+    "width": 173.23949999999996,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 129.31400032,
+    "str": "ICE Data Services",
+    "dir": "ltr",
+    "width": 97.95599999999999,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 145.79999847,
+    "str": "2 years 10 months",
+    "dir": "ltr",
+    "width": 86.33099999999999,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 167.1220008900001,
+    "str": "Assistant Marketing Manager - Product Marketing",
+    "dir": "ltr",
+    "width": 252.31,
+    "height": 11.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 181.6390029900001,
+    "str": "March 2013 - June 2014 ",
+    "dir": "ltr",
+    "width": 116.67599999999999,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 340.23199707000003,
+    "y": 181.6390029900001,
+    "str": "(1 year 4 months)",
+    "dir": "ltr",
+    "width": 82.23599999999999,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 196.32500000000005,
+    "str": "New York, New York",
+    "dir": "ltr",
+    "width": 96.78900000000002,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 217.70000000000005,
+    "str": "Promoted to Product Marketing role to develop go-to-market strategy for the",
+    "dir": "ltr",
+    "width": 352.24350000000015,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 235.70000000000005,
+    "str": "company’s inaugural mobile product releases for two desktop businesses:",
+    "dir": "ltr",
+    "width": 343.00350000000014,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 253.70000000000005,
+    "str": "1) wealth management, and 2) energy commodities. Created new product",
+    "dir": "ltr",
+    "width": 342.39450000000016,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 271.70000000000005,
+    "str": "website as go-to destination for prospects, and devised and executed launch",
+    "dir": "ltr",
+    "width": 355.8345000000003,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 289.70000000000005,
+    "str": "strategies for latest releases of the company’s flagship product. ",
+    "dir": "ltr",
+    "width": 296.26800000000003,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 325.70000000000005,
+    "str": "The Intercontinental Exchange (ICE) acquired Interactive Data Corp shortly",
+    "dir": "ltr",
+    "width": 348.7575000000002,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 343.70000000000005,
+    "str": "after I left.",
+    "dir": "ltr",
+    "width": 46.60950000000001,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 375.14699993000005,
+    "str": "Marketing Associate",
+    "dir": "ltr",
+    "width": 103.4885,
+    "height": 11.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 389.66399918,
+    "str": "September 2011 - February 2013 ",
+    "dir": "ltr",
+    "width": 158.07749999999996,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 381.63200623,
+    "y": 389.66399918,
+    "str": "(1 year 6 months)",
+    "dir": "ltr",
+    "width": 82.23599999999999,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 404.35,
+    "str": "New York, New York",
+    "dir": "ltr",
+    "width": 96.78900000000002,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 425.725,
+    "str": "Built out Marketing Operations and led effort to implement Marketo with",
+    "dir": "ltr",
+    "width": 330.64500000000015,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 443.725,
+    "str": "Salesforce. Trained global teams to use Marketo and automate lead",
+    "dir": "ltr",
+    "width": 315.54600000000016,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 461.725,
+    "str": "generation workflows, enabling marketing and sales to coordinate and scale",
+    "dir": "ltr",
+    "width": 352.33800000000025,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 479.725,
+    "str": "operations. Initiated first A/B testing program for email and planned internal",
+    "dir": "ltr",
+    "width": 348.15900000000033,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 497.725,
+    "str": "offsite sales rally for 225 people.",
+    "dir": "ltr",
+    "width": 150.46499999999997,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 536.1140003200001,
+    "str": "ALIZARTWORKS",
+    "dir": "ltr",
+    "width": 94.57200000000002,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 552.17200089,
+    "str": "Painter",
+    "dir": "ltr",
+    "width": 36.409000000000006,
+    "height": 11.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 566.6889991800001,
+    "str": "January 2005 - September 2011 ",
+    "dir": "ltr",
+    "width": 153.42599999999996,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 376.98100525,
+    "y": 566.6889991800001,
+    "str": "(6 years 9 months)",
+    "dir": "ltr",
+    "width": 87.48599999999999,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 587,
+    "str": "Primarily a colorist, Aliza Edelstein's portraits intend to capture specific",
+    "dir": "ltr",
+    "width": 327.3795000000002,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 605,
+    "str": "moments between people. Her abstract work focuses on how light and water",
+    "dir": "ltr",
+    "width": 355.2045000000003,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 623,
+    "str": "affect color.",
+    "dir": "ltr",
+    "width": 54.22200000000001,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 661.3890003200002,
+    "str": "SWIFT",
+    "dir": "ltr",
+    "width": 37.272000000000006,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 677.44700089,
+    "str": "Marketing Intern",
+    "dir": "ltr",
+    "width": 83.0415,
+    "height": 11.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 691.9639991800001,
+    "str": "June 2011 - August 2011 ",
+    "dir": "ltr",
+    "width": 120.17249999999999,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 343.72899872,
+    "y": 691.9639991800001,
+    "str": "(3 months)",
+    "dir": "ltr",
+    "width": 50.1585,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 712.2750000000001,
+    "str": "Conducted industry research and assisted with public relations for launch of",
+    "dir": "ltr",
+    "width": 351.1410000000002,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 730.2750000000001,
+    "str": "SWIFT’s digital identity token.",
+    "dir": "ltr",
+    "width": 138.15900000000002,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 0,
+    "y": 780.7140001299999,
+    "str": " ",
+    "dir": "ltr",
+    "width": 3.3240000000000003,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 383.98400208,
+    "y": 778.13500013,
+    "str": "Page ",
+    "dir": "ltr",
+    "width": 23.499000000000002,
+    "height": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 407.482995,
+    "y": 778.13500013,
+    "str": "3",
+    "dir": "ltr",
+    "width": 5.0040000000000004,
+    "height": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 412.4869928,
+    "y": 778.13500013,
+    "str": " of ",
+    "dir": "ltr",
+    "width": 12.483000000000002,
+    "height": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 424.96999451,
+    "y": 778.13500013,
+    "str": "4",
+    "dir": "ltr",
+    "width": 5.0040000000000004,
+    "height": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 0,
+    "y": 10.314000129999954,
+    "str": " ",
+    "dir": "ltr",
+    "width": 3.3240000000000003,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 405.31800171,
+    "y": 10.314000129999954,
+    "str": " ",
+    "dir": "ltr",
+    "width": 3.3240000000000003,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 54.92500038000003,
+    "str": "SWIFT, the Society for Worldwide Interbank Financial Telecommunication, is",
+    "dir": "ltr",
+    "width": 356.2650000000002,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 72.92500038000003,
+    "str": "the global provider of secure financial messaging services.",
+    "dir": "ltr",
+    "width": 271.8239999999999,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 111.31400031999999,
+    "str": "Whitney Museum of American Art",
+    "dir": "ltr",
+    "width": 178.596,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 127.3720008900001,
+    "str": "Special Events Intern",
+    "dir": "ltr",
+    "width": 108.58300000000003,
+    "height": 11.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 141.88899918000004,
+    "str": "February 2011 - June 2011 ",
+    "dir": "ltr",
+    "width": 129.50699999999998,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 353.06300598,
+    "y": 141.88899918000004,
+    "str": "(5 months)",
+    "dir": "ltr",
+    "width": 50.1585,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 156.57500000000005,
+    "str": "New York, New York",
+    "dir": "ltr",
+    "width": 96.78900000000002,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 177.95000000000005,
+    "str": "Organized the Whitney’s annual Art Party silent auction for 800 people to",
+    "dir": "ltr",
+    "width": 338.2575000000002,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 195.95000000000005,
+    "str": "celebrate the museum's young arts patrons and emerging artists. Raised",
+    "dir": "ltr",
+    "width": 337.38600000000014,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 213.95000000000005,
+    "str": "$400,000. ",
+    "dir": "ltr",
+    "width": 49.59150000000001,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 249.95000000000005,
+    "str": "The Whitney Art Party raises crucial funds, through its auction, to sustain",
+    "dir": "ltr",
+    "width": 337.6170000000002,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 267.95000000000005,
+    "str": "the Whitney’s venerable Independent Study Program. The program enables",
+    "dir": "ltr",
+    "width": 351.72900000000027,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 285.95000000000005,
+    "str": "students pursuing art practice, curatorial work, art historical scholarship, and",
+    "dir": "ltr",
+    "width": 353.43000000000023,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 303.95000000000005,
+    "str": "critical writing, the opportunity to engage in an ongoing discourse about the",
+    "dir": "ltr",
+    "width": 348.22200000000015,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 321.95000000000005,
+    "str": "historical, social, and intellectual conditions of artistic production.",
+    "dir": "ltr",
+    "width": 299.7645000000001,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 360.33900032,
+    "str": "Mitchell-Innes & Nash",
+    "dir": "ltr",
+    "width": 116.64,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 376.39700089,
+    "str": "Gallery Intern",
+    "dir": "ltr",
+    "width": 68.977,
+    "height": 11.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 390.91399918,
+    "str": "June 2009 - February 2011 ",
+    "dir": "ltr",
+    "width": 129.50699999999998,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 353.06300598,
+    "y": 390.91399918,
+    "str": "(1 year 9 months)",
+    "dir": "ltr",
+    "width": 82.23599999999999,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 405.6,
+    "str": "New York, New York",
+    "dir": "ltr",
+    "width": 96.78900000000002,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 426.975,
+    "str": "Assisted gallery operations at both the Chelsea and Upper East Side locations.",
+    "dir": "ltr",
+    "width": 366.2820000000002,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 465.36400032000006,
+    "str": "The Journal Gallery",
+    "dir": "ltr",
+    "width": 104.652,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 481.42200089000005,
+    "str": "Gallery Intern",
+    "dir": "ltr",
+    "width": 68.977,
+    "height": 11.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 495.93899918000005,
+    "str": "June 2009 - August 2009 ",
+    "dir": "ltr",
+    "width": 120.17249999999999,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 343.72899872,
+    "y": 495.93899918000005,
+    "str": "(3 months)",
+    "dir": "ltr",
+    "width": 50.1585,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 510.62500000000006,
+    "str": "Brooklyn, New York",
+    "dir": "ltr",
+    "width": 92.13749999999999,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 571.2120239300001,
+    "str": "Education",
+    "dir": "ltr",
+    "width": 70.00875,
+    "height": 15.75,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 596.6890003200001,
+    "str": "Columbia University in the City of New York",
+    "dir": "ltr",
+    "width": 231.912,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 614.30000038,
+    "str": "BA ",
+    "dir": "ltr",
+    "width": 16.8945,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 240.4539991,
+    "y": 614.30000038,
+    "str": " · (2008 - 2011)",
+    "dir": "ltr",
+    "width": 71.736,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 647.6890003200001,
+    "str": "Barnard College",
+    "dir": "ltr",
+    "width": 86.676,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 665.30000038,
+    "str": "BA ",
+    "dir": "ltr",
+    "width": 16.8945,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 240.4539991,
+    "y": 665.30000038,
+    "str": " · (2008 - 2011)",
+    "dir": "ltr",
+    "width": 71.736,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 698.6890003200001,
+    "str": "University of Richmond",
+    "dir": "ltr",
+    "width": 123.31199999999998,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 223.56,
+    "y": 716.30000038,
+    "str": " · (2007 - 2008)",
+    "dir": "ltr",
+    "width": 71.736,
+    "height": 10.5,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 0,
+    "y": 780.7140001299999,
+    "str": " ",
+    "dir": "ltr",
+    "width": 3.3240000000000003,
+    "height": 12,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 383.9849939,
+    "y": 778.13500013,
+    "str": "Page ",
+    "dir": "ltr",
+    "width": 23.499000000000002,
+    "height": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 407.48400208,
+    "y": 778.13500013,
+    "str": "4",
+    "dir": "ltr",
+    "width": 5.0040000000000004,
+    "height": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 412.48799988,
+    "y": 778.13500013,
+    "str": " of ",
+    "dir": "ltr",
+    "width": 12.483000000000002,
+    "height": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "x": 424.97100159,
+    "y": 778.13500013,
+    "str": "4",
+    "dir": "ltr",
+    "width": 5.0040000000000004,
+    "height": 9,
+    "fontName": "g_d0_f1"
+  }
+]
