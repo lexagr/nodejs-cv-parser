@@ -2,13 +2,17 @@ import { PDFExtract, PDFExtractResult } from 'pdf.js-extract';
 import * as path from 'path';
 import * as fs from 'fs';
 
-import { CVSection } from './dto/cvsection.dto';
-import { exit } from 'process';
 import { SectionDefinition } from './schema/section_definition.schema';
+
 import { CVPerson } from './dto/cvperson.dto';
+import { CVSection } from './dto/cvsection.dto';
+
 import { SectionParser } from './section-parsers/section.parser.interface';
 import { DefaultSectionParser } from './section-parsers/default.parser';
 import { ContactsSectionParser } from './section-parsers/contacts.parser';
+import { SummarySectionParser } from './section-parsers/summary.parser';
+import { LanguagesSectionParser } from './section-parsers/languages.parser';
+import { ProfileSectionParser } from './section-parsers/profile.parser';
 
 export class CVParser {
   constructor(private readonly jsonSectionDefinitions: SectionDefinition[]) {
@@ -56,18 +60,47 @@ export class CVParser {
         if (item.str == ' ') continue;
 
         // parse section
-        const possibleSection = this.extractSectionTypeFromString(item.str);
+        let possibleSection = this.extractSectionTypeFromString(item.str);
+        if (item.height == 26) {
+          possibleSection = 'profile';
+          console.log(
+            '==============================================================',
+          );
+        }
 
         // new section detected
         if (possibleSection) {
           if (currentSection) {
+            // if (currentSection.type === 'profile') {
+            //   generatedPerson.name = currentSection.items[0];
+            //   generatedPerson.currentPosition =
+            //     currentSection.items[1] ?? 'unknown';
+            //   generatedPerson.currentLocation =
+            //     currentSection.items[currentSection.items.length - 1] ??
+            //     'unknown';
+            // } else {
+            currentSectionParser.finish(currentSection);
             generatedPerson.sections.push(currentSection);
+            // }
           }
 
           currentSection = new CVSection(possibleSection, []);
           switch (possibleSection) {
             case 'contacts': {
               currentSectionParser = new ContactsSectionParser();
+              break;
+            }
+            case 'profile': {
+              currentSectionParser = new ProfileSectionParser();
+              generatedPerson.name = item.str.trim();
+              break;
+            }
+            case 'summary': {
+              currentSectionParser = new SummarySectionParser();
+              break;
+            }
+            case 'languages': {
+              currentSectionParser = new LanguagesSectionParser();
               break;
             }
             default: {
@@ -79,7 +112,7 @@ export class CVParser {
           console.log(possibleSection);
         } else if (currentSection) {
           // not the section
-          currentSectionParser.do(currentSection, item);
+          currentSectionParser.do(generatedPerson, currentSection, item);
         }
       }
       // console.log(page);
@@ -90,6 +123,8 @@ export class CVParser {
     //   JSON.stringify(items, null, 2),
     //   (err) => console.log(err),
     // );
+
+    console.log(pdfData);
 
     return generatedPerson;
   }

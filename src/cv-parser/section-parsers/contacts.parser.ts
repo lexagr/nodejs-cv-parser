@@ -1,13 +1,14 @@
 import { PDFExtractText } from 'pdf.js-extract';
-import { CVContact } from '../dto/cvcontact.dto';
 
-import { CVSection } from '../dto/cvsection.dto';
 import { SectionParser } from './section.parser.interface';
+import { CVPerson } from '../dto/cvperson.dto';
+import { CVSection } from '../dto/cvsection.dto';
+import { CVContact } from '../dto/cvcontact.dto';
 
 export class ContactsSectionParser implements SectionParser {
   private regex = /^\ *(?:\((.*)\)|(.*))/; // ' (LinkedIn)', '(LinkedIn)' etc (as item description)
 
-  do(cvSection: CVSection, item: PDFExtractText) {
+  do(person: CVPerson, cvSection: CVSection, item: PDFExtractText) {
     let prevItem: CVContact = cvSection.items[cvSection.items.length - 1];
     let regexResult = null;
 
@@ -30,4 +31,6 @@ export class ContactsSectionParser implements SectionParser {
       cvSection.items.push(contactItem);
     }
   }
+
+  finish(cvSection: CVSection) {}
 }

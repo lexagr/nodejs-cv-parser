@@ -1,3 +1,3 @@
 export class CVSection {
-  constructor(public readonly type: string, public readonly items: any[]) {}
+  constructor(public type: string, public items: any[]) {}
 }
