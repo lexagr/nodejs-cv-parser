@@ -95,10 +95,10 @@ export class CVParser {
             //   currentSectionParser = new SummarySectionParser();
             //   break;
             // }
-            // case 'languages': {
-            //   currentSectionParser = new LanguagesSectionParser();
-            //   break;
-            // }
+            case 'languages': {
+              currentSectionParser = new LanguagesSectionParser();
+              break;
+            }
             default: {
               currentSectionParser = new DefaultSectionParser();
               break;
