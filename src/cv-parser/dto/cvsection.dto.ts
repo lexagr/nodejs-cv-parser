@@ -1,5 +1,3 @@
-import { Enumerable } from '../../decorators/enumerable.decorator';
-
 export class CVSection {
   public dontInject?: boolean;
 

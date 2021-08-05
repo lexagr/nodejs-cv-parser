@@ -122,10 +122,6 @@ export class CVParser {
 
     new ContactsProcessor().do(pdfData.pages, generatedPerson);
 
-    if (generatedPerson.profiles) {
-      generatedPerson.profiles = Array.from(new Set(generatedPerson.profiles));
-    }
-
     return generatedPerson;
   }
 }

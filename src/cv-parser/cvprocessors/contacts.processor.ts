@@ -21,9 +21,18 @@ export class ContactsProcessor implements CVProcessor {
             person.profiles = [];
           }
 
-          person.profiles.push(item);
+          // remove query string
+          const url = new URL(item);
+          url.search = '';
+
+          person.profiles.push(url.toString());
         }
       }
+    }
+
+    // remove duplications
+    if (person.profiles) {
+      person.profiles = Array.from(new Set(person.profiles));
     }
   }
 }
