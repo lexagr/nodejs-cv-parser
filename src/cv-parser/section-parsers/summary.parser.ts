@@ -7,7 +7,7 @@ export class SummarySectionParser implements SectionParser {
   do(person: CVPerson, cvSection: CVSection, item: PDFExtractText) {
     cvSection.items.push(item.str);
   }
-  finish(cvSection: CVSection) {
+  finish(person: CVPerson, cvSection: CVSection) {
     cvSection.items = [cvSection.items.join('\n')];
   }
 }

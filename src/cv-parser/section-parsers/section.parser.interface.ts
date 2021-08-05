@@ -5,5 +5,5 @@ import { CVSection } from '../dto/cvsection.dto';
 
 export interface SectionParser {
   do(person: CVPerson, cvSection: CVSection, item: PDFExtractText);
-  finish(cvSection: CVSection);
+  finish(person: CVPerson, cvSection: CVSection);
 }

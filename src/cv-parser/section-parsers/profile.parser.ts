@@ -8,7 +8,7 @@ export class ProfileSectionParser implements SectionParser {
     cvSection.items.push(item.str);
   }
 
-  finish(cvSection: CVSection) {
+  finish(person: CVPerson, cvSection: CVSection) {
     // cvSection.items = [cvSection.items.join('\n')];
   }
 }

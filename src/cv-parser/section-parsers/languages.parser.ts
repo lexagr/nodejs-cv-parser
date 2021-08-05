@@ -26,5 +26,5 @@ export class LanguagesSectionParser implements SectionParser {
     }
   }
 
-  finish(cvSection: CVSection) {}
+  finish(person: CVPerson, cvSection: CVSection) {}
 }

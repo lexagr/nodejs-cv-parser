@@ -13,6 +13,7 @@ import { ContactsSectionParser } from './section-parsers/contacts.parser';
 import { SummarySectionParser } from './section-parsers/summary.parser';
 import { LanguagesSectionParser } from './section-parsers/languages.parser';
 import { ProfileSectionParser } from './section-parsers/profile.parser';
+import { ContactsProcessor } from './cvprocessors/contacts.processor';
 
 export class CVParser {
   constructor(private readonly jsonSectionDefinitions: SectionDefinition[]) {
@@ -63,31 +64,23 @@ export class CVParser {
         let possibleSection = this.extractSectionTypeFromString(item.str);
         if (item.height == 26) {
           possibleSection = 'profile';
-          console.log(
-            '==============================================================',
-          );
         }
 
         // new section detected
         if (possibleSection) {
           if (currentSection) {
-            // if (currentSection.type === 'profile') {
-            //   generatedPerson.name = currentSection.items[0];
-            //   generatedPerson.currentPosition =
-            //     currentSection.items[1] ?? 'unknown';
-            //   generatedPerson.currentLocation =
-            //     currentSection.items[currentSection.items.length - 1] ??
-            //     'unknown';
-            // } else {
-            currentSectionParser.finish(currentSection);
-            generatedPerson.sections.push(currentSection);
-            // }
+            currentSectionParser.finish(generatedPerson, currentSection);
+
+            if (!currentSection.dontInject) {
+              generatedPerson.sections.push(currentSection);
+            }
           }
 
           currentSection = new CVSection(possibleSection, []);
           switch (possibleSection) {
             case 'contacts': {
               currentSectionParser = new ContactsSectionParser();
+              currentSection.dontInject = true;
               break;
             }
             case 'profile': {
@@ -95,14 +88,14 @@ export class CVParser {
               generatedPerson.name = item.str.trim();
               break;
             }
-            case 'summary': {
-              currentSectionParser = new SummarySectionParser();
-              break;
-            }
-            case 'languages': {
-              currentSectionParser = new LanguagesSectionParser();
-              break;
-            }
+            // case 'summary': {
+            //   currentSectionParser = new SummarySectionParser();
+            //   break;
+            // }
+            // case 'languages': {
+            //   currentSectionParser = new LanguagesSectionParser();
+            //   break;
+            // }
             default: {
               currentSectionParser = new DefaultSectionParser();
               break;
@@ -116,6 +109,7 @@ export class CVParser {
         }
       }
       // console.log(page);
+      console.log('page links: ', page.links);
     }
 
     // fs.writeFile(
@@ -125,6 +119,12 @@ export class CVParser {
     // );
 
     console.log(pdfData);
+
+    new ContactsProcessor().do(pdfData.pages, generatedPerson);
+
+    if (generatedPerson.profiles) {
+      generatedPerson.profiles = Array.from(new Set(generatedPerson.profiles));
+    }
 
     return generatedPerson;
   }
