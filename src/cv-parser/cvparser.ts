@@ -69,7 +69,7 @@ export class CVParser {
           possibleSection = 'profile';
         }
 
-        // new section detected
+        // new section detected, if possibleSection not null
         if (possibleSection) {
           if (currentSection) {
             currentSectionParser.finish(generatedPerson, currentSection);

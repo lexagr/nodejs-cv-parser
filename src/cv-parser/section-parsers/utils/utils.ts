@@ -15,7 +15,7 @@ export class CVParserUtils {
         continue;
       }
 
-      let possiblePadding = item[1] - prevPositionY;
+      let possiblePadding = Math.round(item[1] - prevPositionY);
       if (possiblePadding > 0.0 && smallerPadding > possiblePadding) {
         smallerPadding = possiblePadding;
       }
@@ -31,7 +31,7 @@ export class CVParserUtils {
         continue;
       }
 
-      let possiblePadding = item[1] - prevPositionY;
+      let possiblePadding = Math.round(item[1] - prevPositionY);
       if (biggestPadding < possiblePadding) {
         biggestPadding = possiblePadding;
       }
@@ -44,8 +44,8 @@ export class CVParserUtils {
     }
 
     const paddingDTO = new PaddingDTO();
-    paddingDTO.smallerPadding = Math.round(smallerPadding);
-    paddingDTO.biggestPadding = Math.round(biggestPadding);
+    paddingDTO.smallerPadding = smallerPadding;
+    paddingDTO.biggestPadding = biggestPadding;
 
     return paddingDTO;
   }
