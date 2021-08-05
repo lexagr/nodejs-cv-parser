@@ -14,8 +14,11 @@ import { SummarySectionParser } from './section-parsers/summary.parser';
 import { LanguagesSectionParser } from './section-parsers/languages.parser';
 import { ProfileSectionParser } from './section-parsers/profile.parser';
 import { ContactsProcessor } from './cvprocessors/contacts.processor';
+import { CVProcessor } from './cvprocessors/cvprocessor.interface';
 
 export class CVParser {
+  public dataProcessors: CVProcessor[] = [];
+
   constructor(private readonly jsonSectionDefinitions: SectionDefinition[]) {
     console.log(this.jsonSectionDefinitions);
   }
@@ -120,7 +123,9 @@ export class CVParser {
 
     console.log(pdfData);
 
-    new ContactsProcessor().do(pdfData.pages, generatedPerson);
+    for(const processor of this.dataProcessors) {
+      processor.do(pdfData.pages, generatedPerson);
+    }
 
     return generatedPerson;
   }
