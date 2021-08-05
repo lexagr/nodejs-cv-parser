@@ -7,5 +7,5 @@ export class CVPerson {
   public profiles?: string[];
   public links?: string[];
 
-  public sections: CVSection[] = [];
+  public sections: object = {};
 }

@@ -75,7 +75,7 @@ export class CVParser {
             currentSectionParser.finish(generatedPerson, currentSection);
 
             if (!currentSection.dontInject) {
-              generatedPerson.sections.push(currentSection);
+              generatedPerson.sections[currentSection.type] = currentSection.items;
             }
           }
 
