@@ -8,26 +8,8 @@ import { DefaultSectionParser } from './default.parser';
 import config from '../config';
 
 export class LanguagesSectionParser extends DefaultSectionParser {
-  // private regex = /^(.*?)\ *(?:\((.*?)\))*$/g; // language & level description
-
   do(person: CVPerson, cvSection: CVSection, item: PDFExtractText) {
     super.do(person, cvSection, item);
-
-    // let regexResult = null;
-    // if ((regexResult = this.regex.exec(item.str)) && regexResult[1]) {
-    //   // let prevItem: string = cvSection.items[cvSection.items.length - 1];
-    //   // prevItem = prevItem + item.str;
-
-    //   let prevItem: CVLanguage = cvSection.items[cvSection.items.length - 1];
-    //   prevItem.level = regexResult[1];
-
-    //   cvSection.items[cvSection.items.length - 1] = prevItem;
-    // } else {
-    //   const lang = new CVLanguage();
-    //   lang.name = item.str;
-
-    //   cvSection.items.push(lang);
-    // }
   }
 
   finish(person: CVPerson, cvSection: CVSection) {

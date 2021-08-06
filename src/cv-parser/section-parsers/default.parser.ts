@@ -9,10 +9,13 @@ import { SequenceDTO } from './dto/sequence.dto';
 import { CVParserUtils } from './utils/utils';
 import { Sequencer } from './sequencers/sequencer.interface';
 import { DefaultArraySequencer } from './sequencers/default.array.sequencer';
+import { Filter } from './filters/filter.interface';
 
 export class DefaultSectionParser implements SectionParser {
+  public filter: Filter;
+
   constructor(private sequencer: Sequencer = new DefaultArraySequencer()) {
-    if (!sequencer) throw 'No provided sequencer';
+    if (!sequencer) throw new Error('No provided sequencer');
   }
 
   do(person: CVPerson, cvSection: CVSection, item: PDFExtractText) {
@@ -26,6 +29,16 @@ export class DefaultSectionParser implements SectionParser {
     for (let curIdx = 0; curIdx < cvSection.items.length; curIdx++) {
       const seq = this.sequencer.do(itemsPadding, cvSection, curIdx);
       curIdx += seq.processedLines;
+
+      if (this.filter) {
+        seq.result = this.filter.do(seq.result);
+      }
+
+      seq.result = seq.result.trim();
+      if (seq.result.length <= 0) {
+        continue;
+      }
+
       itemsReconstruct.push(seq.result);
     }
 

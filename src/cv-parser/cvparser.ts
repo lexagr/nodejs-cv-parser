@@ -2,6 +2,8 @@ import { PDFExtract, PDFExtractResult } from 'pdf.js-extract';
 import * as path from 'path';
 import * as fs from 'fs';
 
+import config from './config';
+
 import { SectionDefinition } from './schema/section_definition.schema';
 
 import { CVPerson } from './dto/cvperson.dto';
@@ -11,9 +13,8 @@ import { SectionParser } from './section-parsers/section.parser.interface';
 import { DefaultSectionParser } from './section-parsers/default.parser';
 import { ContactsSectionParser } from './section-parsers/contacts.parser';
 import { LanguagesSectionParser } from './section-parsers/languages.parser';
-import { ProfileSectionParser } from './section-parsers/profile.parser';
 import { CVProcessor } from './cvprocessors/cvprocessor.interface';
-import config from './config';
+import { RegexCleanerFilter } from './section-parsers/filters/regexcleaner.filter';
 
 export class CVParser {
   public dataProcessors: CVProcessor[] = [];
@@ -53,6 +54,16 @@ export class CVParser {
     let currentSection: CVSection = null;
     let currentSectionParser: SectionParser = null;
 
+    const tryAppendCurrentSection = () => {
+      if (currentSection) {
+        currentSectionParser.finish(generatedPerson, currentSection);
+
+        if (!currentSection.dontInject) {
+          generatedPerson.sections[currentSection.type] = currentSection.items;
+        }
+      }
+    };
+
     for (const page of pdfData.pages) {
       for (const item of page.content) {
         // skip only whitespaces
@@ -66,14 +77,7 @@ export class CVParser {
 
         // new section detected, if possibleSection not null
         if (possibleSection) {
-          if (currentSection) {
-            currentSectionParser.finish(generatedPerson, currentSection);
-
-            if (!currentSection.dontInject) {
-              generatedPerson.sections[currentSection.type] =
-                currentSection.items;
-            }
-          }
+          tryAppendCurrentSection();
 
           currentSection = new CVSection(possibleSection, []);
           switch (possibleSection) {
@@ -82,17 +86,18 @@ export class CVParser {
               currentSection.dontInject = true;
               break;
             }
-            case 'profile': {
-              currentSectionParser = new ProfileSectionParser();
-              generatedPerson.name = item.str.trim();
-              break;
-            }
             case 'languages': {
               currentSectionParser = new LanguagesSectionParser();
               break;
             }
+            case 'profile': {
+              generatedPerson.name = item.str.trim();
+            }
             default: {
               currentSectionParser = new DefaultSectionParser();
+              currentSectionParser.filter = new RegexCleanerFilter(
+                config.re.page_identificator,
+              );
               break;
             }
           }
@@ -102,6 +107,8 @@ export class CVParser {
         }
       }
     }
+
+    tryAppendCurrentSection();
 
     for (const processor of this.dataProcessors) {
       processor.do(pdfData.pages, generatedPerson);
