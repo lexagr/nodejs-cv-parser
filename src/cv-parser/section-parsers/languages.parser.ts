@@ -36,18 +36,19 @@ export class LanguagesSectionParser extends DefaultSectionParser {
     const transformedItems = [];
 
     let regexResult = null;
-    for(let i = 0; i < cvSection.items.length; i++) {
-      if((regexResult = config.re.languages.exec(cvSection.items[i])) && regexResult[1]) {
+    for (let i = 0; i < cvSection.items.length; i++) {
+      if (
+        (regexResult = config.re.languages.exec(cvSection.items[i])) &&
+        regexResult[1]
+      ) {
         const lang = new CVLanguage();
         lang.name = regexResult[1];
 
-        if(regexResult[2]) {
+        if (regexResult[2]) {
           lang.level = regexResult[2];
         }
 
         transformedItems.push(lang);
-      } else {
-        console.log('regex result null', cvSection.items[i]);
       }
     }
 

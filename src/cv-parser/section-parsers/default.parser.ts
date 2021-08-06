@@ -21,18 +21,14 @@ export class DefaultSectionParser implements SectionParser {
 
   finish(person: CVPerson, cvSection: CVSection) {
     const itemsPadding = CVParserUtils.calculatePadding(cvSection);
-    console.log(itemsPadding);
 
     const itemsReconstruct = [];
     for (let curIdx = 0; curIdx < cvSection.items.length; curIdx++) {
       const seq = this.sequencer.do(itemsPadding, cvSection, curIdx);
       curIdx += seq.processedLines;
       itemsReconstruct.push(seq.result);
-
-      console.log('builded sequence:', seq);
     }
 
-    console.log('itemsReconstruct', itemsReconstruct);
     cvSection.items = itemsReconstruct;
   }
 }

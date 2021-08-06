@@ -10,18 +10,14 @@ import { CVSection } from './dto/cvsection.dto';
 import { SectionParser } from './section-parsers/section.parser.interface';
 import { DefaultSectionParser } from './section-parsers/default.parser';
 import { ContactsSectionParser } from './section-parsers/contacts.parser';
-import { SummarySectionParser } from './section-parsers/summary.parser';
 import { LanguagesSectionParser } from './section-parsers/languages.parser';
 import { ProfileSectionParser } from './section-parsers/profile.parser';
-import { ContactsProcessor } from './cvprocessors/contacts.processor';
 import { CVProcessor } from './cvprocessors/cvprocessor.interface';
 
 export class CVParser {
   public dataProcessors: CVProcessor[] = [];
 
-  constructor(private readonly jsonSectionDefinitions: SectionDefinition[]) {
-    console.log(this.jsonSectionDefinitions);
-  }
+  constructor(private readonly jsonSectionDefinitions: SectionDefinition[]) {}
 
   private extractSectionTypeFromString(content): string {
     content = content.toLowerCase();
@@ -44,7 +40,7 @@ export class CVParser {
       const pdfExtractor = new PDFExtract();
       return await pdfExtractor.extract(filePath);
     } catch (e) {
-      console.log(e);
+      console.error(e);
     }
   }
 
@@ -58,8 +54,6 @@ export class CVParser {
 
     for (const page of pdfData.pages) {
       for (const item of page.content) {
-        console.log(item);
-
         // skip only whitespaces
         if (item.str == ' ') continue;
 
@@ -75,7 +69,8 @@ export class CVParser {
             currentSectionParser.finish(generatedPerson, currentSection);
 
             if (!currentSection.dontInject) {
-              generatedPerson.sections[currentSection.type] = currentSection.items;
+              generatedPerson.sections[currentSection.type] =
+                currentSection.items;
             }
           }
 
@@ -91,10 +86,6 @@ export class CVParser {
               generatedPerson.name = item.str.trim();
               break;
             }
-            // case 'summary': {
-            //   currentSectionParser = new SummarySectionParser();
-            //   break;
-            // }
             case 'languages': {
               currentSectionParser = new LanguagesSectionParser();
               break;
@@ -104,26 +95,14 @@ export class CVParser {
               break;
             }
           }
-
-          console.log(possibleSection);
         } else if (currentSection) {
           // not the section
           currentSectionParser.do(generatedPerson, currentSection, item);
         }
       }
-      // console.log(page);
-      console.log('page links: ', page.links);
     }
 
-    // fs.writeFile(
-    //   path.join(process.cwd(), '/pdf_example_pages.json'),
-    //   JSON.stringify(items, null, 2),
-    //   (err) => console.log(err),
-    // );
-
-    console.log(pdfData);
-
-    for(const processor of this.dataProcessors) {
+    for (const processor of this.dataProcessors) {
       processor.do(pdfData.pages, generatedPerson);
     }
 
