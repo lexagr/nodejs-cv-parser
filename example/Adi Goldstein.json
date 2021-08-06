@@ -1,0 +1,44 @@
+{
+  "sections": {
+    "skills": [
+      "JavaScript",
+      "React.js",
+      "CSS3"
+    ],
+    "profile": [
+      "Front End Developer at Moonshot Marketing LTD"
+    ],
+    "summary": [
+      "Front - End Developer. My main goal is to become a part of",
+      "ambitious Development team."
+    ],
+    "experience": [
+      "Moonshot Marketing LTD",
+      "Front End Developer October 2017 - Present  (2 years 7 months) Tel Aviv Area, Israel",
+      "Ofnocenter",
+      "Business Manager October 2014 - October 2017  (3 years 1 month) Tel Aviv",
+      "Manage and operate the flag store, and other stores of the chain. Manege",
+      "2-3 staff members, responsibility for Sales and service. Stock management.",
+      "Instruction of employees.",
+      "Maslulim",
+      "Organization Development Consultant January 2010 - April 2014  (4 years 4 months) Israel",
+      "2012-2014 - Organizational Development - Project management in the field of",
+      "organizational development - Work procedures, job descriptions establishment",
+      "of  employees training. Lead the procedure of outsource sales department.",
+      "2010 - 2012 -  Sales team leader - professional management of 2-3 persons",
+      "sales team. Handle customer complaints, provide appropriate solutions and",
+      "alternatives.  Provide solutions for multiple departments of the company",
+      "(Finance, logistics, training)."
+    ],
+    "education": [
+      "Create (Israel) Front-End Development Bootcamp, Web Development  · (2017 - 2017)",
+      "Udemy The Complete Web Development course, Web/Multimedia Management and Webmaster  · (2016 - 2017)",
+      "Ono Academic College Master of Business Administration (MBA), Business consultant  · (2012 - 2014)",
+      "Ono Academic College Bachelor of Business Administration (B.B.A.), Marketing and advertising  · (2006 - 2009)"
+    ]
+  },
+  "name": "Adi Goldstein",
+  "profiles": [
+    "https://www.linkedin.com/in/adi-goldstein"
+  ]
+}

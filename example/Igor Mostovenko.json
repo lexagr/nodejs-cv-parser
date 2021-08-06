@@ -1,0 +1,48 @@
+{
+  "sections": {
+    "skills": [
+      "JavaScript",
+      "React",
+      "Node.js"
+    ],
+    "languages": [
+      {
+        "name": "English",
+        "level": "Limited Working"
+      },
+      {
+        "name": "Ukrainian",
+        "level": "Native or Bilingual"
+      },
+      {
+        "name": "Russian",
+        "level": "Native or Bilingual"
+      }
+    ],
+    "profile": [
+      "Software Developer – VREAL SOFT"
+    ],
+    "summary": [
+      "Hi. I have been working as a web developer since the fall of 2015, starting with simple websites on native PHP. Next was the development experience with the Laravel 5 framework.",
+      "Now I'm developing SPA applications using React / Vue.js and Node.js + (Express/Sails/socket.io) for back-end (monolith/ microservices). Also I develop mobile applications (Android/iOS) using React Native and desktop using ElectronJS."
+    ],
+    "experience": [
+      "BidOn Technology",
+      "Software Developer август 2016 - Present  (3 года 9 месяцев) Ukraine, Cherkassy",
+      "Full Stack Web/Mobile  Developer",
+      "VREAL SOFT",
+      "Software Developer август 2016 - Present  (3 года 9 месяцев) Cherkasy Region, Ukraine",
+      "studio10.in.ua",
+      "Back-end, Front-end октябрь 2015 - июль 2016  (10 месяцев) Ukraine, Cherkassy",
+      "Web development and maintenance using PHP, MySQL, JS."
+    ],
+    "education": [
+      "Cherkasy State University 'Bohdan Hmelnycky' Bachelor, Applied Mathematics  · (2014 - 2015)"
+    ]
+  },
+  "name": "Igor Mostovenko",
+  "email": "igormostovenko@gmail.com",
+  "profiles": [
+    "https://www.linkedin.com/in/igor-mostovenko-422631124"
+  ]
+}

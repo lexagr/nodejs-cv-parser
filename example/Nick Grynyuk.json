@@ -1,0 +1,50 @@
+{
+  "sections": {
+    "skills": [
+      "Менеджмент",
+      "Управление проектами",
+      "Научно-исследовательская деятельность"
+    ],
+    "languages": [
+      {
+        "name": "Русский",
+        "level": "Full Professional"
+      },
+      {
+        "name": "Английский",
+        "level": "Professional Working"
+      },
+      {
+        "name": "Испанский",
+        "level": "Elementary"
+      }
+    ],
+    "certifications": [
+      "Initiating and Planning Projects",
+      "Managing Project Risks and Changes",
+      "Introduction to Blockchain Technologies",
+      "Budgeting and Scheduling Projects"
+    ],
+    "profile": [
+      "IT Project Manager - VREAL SOFT",
+      "Ukraine"
+    ],
+    "summary": [
+      "Мои основные плюсы это коммуникабельность, хорошее знание",
+      "английского и желание обучаться и всесторонне развиваться"
+    ],
+    "experience": [
+      "VREAL SOFT",
+      "IT Project Manager март 2019 - Present  (1 год) Черкассы, Украина"
+    ],
+    "education": [
+      "Черкасский государственный технологический университет Магистр, Информационные технологии  · (2016 - 2017)",
+      "Черкасский государственный технологический университет Степень бакалавра, Разработка программного обеспечения  · (2010 - 2016)"
+    ]
+  },
+  "name": "Nick Grynyuk",
+  "email": "g_nik94@ukr.net",
+  "profiles": [
+    "https://www.linkedin.com/in/nick-grynyuk-240300142"
+  ]
+}
