@@ -3,14 +3,16 @@
     "type": "contacts",
     "keywords": [
       "Contact",
-      "Способы связаться"
+      "Способы связаться",
+      "Coordonnées"
     ]
   },
   {
     "type": "skills",
     "keywords": [
       "Top Skills",
-      "Основные навыки"
+      "Основные навыки",
+      "Principales compétences"
     ]
   },
   {
@@ -54,7 +56,8 @@
     "type": "experience",
     "keywords": [
       "Experience",
-      "Опыт работы"
+      "Опыт работы",
+      "Expérience"
     ]
   },
   {
