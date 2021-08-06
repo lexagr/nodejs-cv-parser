@@ -66,8 +66,8 @@ export class CVParser {
 
     for (const page of pdfData.pages) {
       for (const item of page.content) {
-        // skip only whitespaces
-        if (item.str == ' ') continue;
+        // skip empty strings
+        if (item.str.length <= 0) continue;
 
         // parse section
         let possibleSection = this.extractSectionTypeFromString(item.str);
