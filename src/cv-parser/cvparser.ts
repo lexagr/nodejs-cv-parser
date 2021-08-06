@@ -13,6 +13,7 @@ import { ContactsSectionParser } from './section-parsers/contacts.parser';
 import { LanguagesSectionParser } from './section-parsers/languages.parser';
 import { ProfileSectionParser } from './section-parsers/profile.parser';
 import { CVProcessor } from './cvprocessors/cvprocessor.interface';
+import config from './config';
 
 export class CVParser {
   public dataProcessors: CVProcessor[] = [];
@@ -59,7 +60,7 @@ export class CVParser {
 
         // parse section
         let possibleSection = this.extractSectionTypeFromString(item.str);
-        if (item.height == 26) {
+        if (item.height == config.font_sizes.profile) {
           possibleSection = 'profile';
         }
 

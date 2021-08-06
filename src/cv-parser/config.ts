@@ -1,4 +1,7 @@
 export default {
+  font_sizes: {
+    profile: 26,
+  },
   re: {
     phone: /\+\d*/g,
     profiles:
