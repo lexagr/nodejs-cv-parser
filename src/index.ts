@@ -27,7 +27,6 @@ async function bootstrap() {
   parser.dataProcessors.push(new ContactsProcessor());
 
   const person = await parser.parse(filePath);
-
   console.log(JSON.stringify(person, null, 2));
 }
 
