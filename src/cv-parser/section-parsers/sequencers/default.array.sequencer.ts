@@ -5,7 +5,15 @@ import { PaddingDTO } from '../utils/dto/padding.dto';
 import { CVSection } from '../../dto/cvsection.dto';
 
 export class DefaultArraySequencer implements Sequencer {
+  constructor(private ignoreSamePaddings: boolean = false) {}
+
   do(paddings: PaddingDTO, cvSection: CVSection, fromIdx: number): SequenceDTO {
+    let samePaddingsDetected = false;
+    if (this.ignoreSamePaddings) {
+      samePaddingsDetected =
+        paddings.smallerPadding === paddings.biggestPadding;
+    }
+
     let sequence = new SequenceDTO();
     sequence.result = cvSection.items[fromIdx][0] ?? null;
 
@@ -15,7 +23,7 @@ export class DefaultArraySequencer implements Sequencer {
       );
 
       // append small padding lines
-      if (curPadding < paddings.biggestPadding) {
+      if (samePaddingsDetected || curPadding < paddings.biggestPadding) {
         sequence.result += ' ' + cvSection.items[fromIdx + 1][0];
         sequence.processedLines++;
       } else {
