@@ -1,6 +1,7 @@
 export default {
   font_sizes: {
     profile: 26,
+    education_name: 12,
   },
   re: {
     email: /([a-zA-Z_\d\-\.]*@[a-zA-Z_\d\-\.]*\.[a-zA-Z_\d]*)/g,
