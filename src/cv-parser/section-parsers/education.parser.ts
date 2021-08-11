@@ -27,7 +27,7 @@ export class EducationSectionParser extends DefaultSectionParser {
           );
 
           if (regexResult && regexResult.length >= 3) {
-            this.currentEducation.date_range = [
+            this.currentEducation.dateRange = [
               regexResult[1], // start date
               regexResult[2], // end date
             ];
