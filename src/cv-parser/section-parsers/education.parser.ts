@@ -33,7 +33,7 @@ export class EducationSectionParser extends DefaultSectionParser {
             ];
 
             cvSection.items[i] = cvSection.items[i]
-              .replaceAll(config.re.education_date_range, '')
+              .replace(config.re.education_date_range, '')
               .trim();
           }
         }
