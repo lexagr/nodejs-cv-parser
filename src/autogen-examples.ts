@@ -13,8 +13,6 @@ const STORAGE_DIR = 'storage/';
 const EXAMPLE_DIR = 'example/';
 
 async function bootstrap() {
-  console.log('cwd', process.cwd());
-
   const jsondef = JSON.parse(
     fs
       .readFileSync(path.join(process.cwd(), JSONDEF_DIR, 'cvkeywords.json'))

@@ -12,7 +12,7 @@ import { DefaultArraySequencer } from './sequencers/default.array.sequencer';
 import { Filter } from './filters/filter.interface';
 
 export class DefaultSectionParser implements SectionParser {
-  public filter: Filter;
+  public filters: Filter[] = [];
 
   constructor(private sequencer: Sequencer = new DefaultArraySequencer()) {
     if (!sequencer) throw new Error('No provided sequencer');
@@ -30,8 +30,8 @@ export class DefaultSectionParser implements SectionParser {
       const seq = this.sequencer.do(itemsPadding, cvSection, curIdx);
       curIdx += seq.processedLines;
 
-      if (this.filter) {
-        seq.result = this.filter.do(seq.result);
+      for (const filter of this.filters) {
+        seq.result = filter.do(seq.result);
       }
 
       seq.result = seq.result.trim();
