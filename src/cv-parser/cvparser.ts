@@ -95,8 +95,8 @@ export class CVParser {
             }
             default: {
               currentSectionParser = new DefaultSectionParser();
-              currentSectionParser.filter = new RegexCleanerFilter(
-                config.re.page_identificator,
+              currentSectionParser.filters.push(
+                new RegexCleanerFilter(config.re.page_identificator),
               );
               break;
             }
