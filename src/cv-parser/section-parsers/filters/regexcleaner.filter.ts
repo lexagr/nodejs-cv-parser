@@ -5,7 +5,7 @@ export class RegexCleanerFilter implements Filter {
 
   do(data: any): any {
     if (this.regex && typeof data === 'string') {
-      return data.replaceAll(this.regex, '');
+      return data.replace(this.regex, '');
     }
     throw new Error('No provided regex');
   }
