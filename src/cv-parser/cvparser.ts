@@ -93,8 +93,8 @@ export class CVParser {
             }
             case 'education': {
               currentSectionParser = new EducationSectionParser();
-              currentSectionParser.filter = new RegexCleanerFilter(
-                config.re.page_identificator,
+              currentSectionParser.filters.push(
+                new RegexCleanerFilter(config.re.page_identificator),
               );
               break;
             }
