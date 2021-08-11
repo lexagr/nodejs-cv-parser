@@ -21,7 +21,26 @@ export class EducationSectionParser extends DefaultSectionParser {
       super.finish(person, cvSection);
 
       if (cvSection.items.length > 0) {
-        this.currentEducation.additionalInfo = cvSection.items;
+        for (let i = 0; i < cvSection.items.length; i++) {
+          let regexResult = config.re.education_date_range.exec(
+            cvSection.items[i],
+          );
+
+          if (regexResult && regexResult.length >= 3) {
+            this.currentEducation.date_range = [
+              regexResult[1], // start date
+              regexResult[2], // end date
+            ];
+
+            cvSection.items[i] = cvSection.items[i]
+              .replaceAll(config.re.education_date_range, '')
+              .trim();
+          }
+        }
+
+        this.currentEducation.additionalInfo = cvSection.items.filter(
+          (item) => item.length > 0,
+        );
         cvSection.items = [];
       }
 

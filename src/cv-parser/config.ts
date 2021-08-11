@@ -11,5 +11,6 @@ export default {
     languages: /^(.*?)\ *(?:\((.*?)\))*$/,
     page_identificator: /(Page\ *\d\ *of\ *\d)/g,
     skype_live: /Skype.*(live:\S*)/g,
+    education_date_range: /·*\p{Z}*\((\S*)\p{Z}*-\p{Z}*(\S*)\)/gu,
   },
 };
