@@ -5,6 +5,7 @@
   "scripts": {
     "start": "tsc && node ./dist/index.js",
     "start:webpack": "webpack && node ./dist/bundle.js",
+    "autogen:examples": "tsc && node ./dist/autogen-examples.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
